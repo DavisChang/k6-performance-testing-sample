@@ -12,3 +12,4 @@ jobs:
         uses: k6io/action@v0.1
         with:
           filename: test.js
+          flags: --out influxdb=http://c6fa-1-161-73-236.ngrok.io
